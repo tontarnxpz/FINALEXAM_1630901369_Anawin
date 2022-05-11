@@ -118,3 +118,26 @@ td{
     text-align: center;
     color: green;
 }
+
+.fill{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    color:orange;
+    border-style: outset;
+}
+
+.button{
+    text-align: center;
+    background-color: yellow;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+
+.button:hover{
+    transform: scale(1.3);
+    background-color: yellow;
+}

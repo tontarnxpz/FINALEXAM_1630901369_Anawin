@@ -13,6 +13,7 @@ const locate = mysql.createPool({
 })
 
 var obj = {}
+var obj2 = {}
 
 app.set('view engine','ejs')
 app.use(express.static('CSS'))
@@ -79,5 +80,59 @@ app.get('/16april',(req,res)=>{
                 res.render('16april',obj)
             }
         })
+    })
+})
+
+app.post('/16march',(req, res) => {
+    locate.getConnection((err, connection) => { 
+        if(err) throw err
+            const params = req.body
+                locate.getConnection((err, connection) => {
+                            connection.query('INSERT INTO be16march SET ?', params, (err, rows) => {
+                                connection.release()
+                                if(!err){
+                                    obj2 = {Error:err, mesg : `Success adding data`}
+                                    res.render('index', obj2)
+                                }else {
+                                    console.log(err)
+                                    }
+                                })
+                })
+    })
+})
+
+app.post('/16april',(req, res) => {
+    locate.getConnection((err, connection) => { 
+        if(err) throw err
+            const params = req.body
+                locate.getConnection((err, connection) => {
+                            connection.query('INSERT INTO be16april SET ?', params, (err, rows) => {
+                                connection.release()
+                                if(!err){
+                                    obj2 = {Error:err, mesg : `Success adding data`}
+                                    res.render('index', obj2)
+                                }else {
+                                    console.log(err)
+                                    }
+                                })
+                })
+    })
+})
+
+app.post('/1april',(req, res) => {
+    locate.getConnection((err, connection) => { 
+        if(err) throw err
+            const params = req.body
+                locate.getConnection((err, connection) => {
+                            connection.query('INSERT INTO be1april SET ?', params, (err, rows) => {
+                                connection.release()
+                                if(!err){
+                                    obj2 = {Error:err, mesg : `Success adding data`}
+                                    res.render('index', obj2)
+                                }else {
+                                    console.log(err)
+                                    }
+                                })
+                })
     })
 })
