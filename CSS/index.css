@@ -1,0 +1,86 @@
+body{
+    background-image: url("8753.jpg");
+}
+h1{
+    background-color: rgb(7, 8, 8);
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: yellow;
+    font-size: 120px;
+    border-style: solid;
+
+    letter-spacing: 10px;
+    text-shadow: 
+    0px 0px 1px rgb(167,167,167),
+    0px 1px 1px rgb(167,167,167),
+    0px 2px 1px rgb(167,167,167),
+
+    1px 1px 1px rgb(167,167,167),
+    1px 2px 1px rgb(167,167,167),
+    1px 3px 1px rgb(167,167,167),
+    
+    2px 2px 1px rgb(167,167,167),
+    2px 3px 1px rgb(167,167,167),
+    2px 4px 1px rgb(167,167,167),
+}
+
+h2{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    color: aqua;
+}
+
+h3{
+    width: 150px;
+    height: 55px;
+    margin: auto;
+    border: 1px solid red;
+    background-color: rgb(243, 243, 243);
+}
+
+h4{
+    width: 250px;
+    height: 60px;
+    margin-right: 30%;
+    font-size: 40px;
+    background-color: yellow;
+    border-style: solid;
+}
+
+h5{
+    width: 210px;
+    height: 60px;
+    margin-left: 40%;
+    font-size: 40px;
+    background-color: yellow;
+    border-style: solid;
+}
+
+h6{
+    width: 230px;
+    height: 60px;
+    margin-left: 70%;
+    font-size: 40px;
+    background-color: yellow;
+    border-style: solid;
+}
+
+.profile{
+    font-size: 40px;
+    margin-left: 87%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+}
+
+h3:hover{
+    transform: scale(1.1);
+    background-color: yellow;
+}
+
+.table-menu{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 230px;
+    font-size: 40px;
+    color: blue;
+}
