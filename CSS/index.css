@@ -28,7 +28,7 @@ h2{
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 50px;
-    color: aqua;
+    color: yellow;
 }
 
 h3{
@@ -46,6 +46,21 @@ h4{
     font-size: 40px;
     background-color: yellow;
     border-style: solid;
+}
+
+h7{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    color: rgb(28, 245, 111);
+}
+
+.fill{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    color:orange;
+    border-style: outset;
 }
 
 h5{
@@ -83,4 +98,26 @@ h3:hover{
     margin-left: 230px;
     font-size: 40px;
     color: blue;
+}
+
+form{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    text-align: center;
+    background-color: yellow;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+
+.button:hover{
+    transform: scale(1.3);
+    background-color: yellow;
 }

@@ -19,27 +19,34 @@
         </table>  
     </div>
     <h3>----- GOOD LUCK BRO -----</h3>
-    <div class="fill">
-        <form action="" method="port">
-            <h4>--- ADD REWARD ---</h4>
-            <p>First Reward!!!</p>
-            <input name="order1april1" class="first" type="text" placeholder="input" required>
-            <p>Second Reward!!</p>
-            <input name="order2april1" class="second" type="text" placeholder="input" required>
-            <p>Third Reward!</p>
-            <input name="order3april1" class="third" type="text" placeholder="input" required>
-        </form>
-        <br>
-        <button type="enter" class="button">ENTER</button>
-    </div>
     <br>
     <div class="fillcheck">
         <form action="" method="portcheck">
             <h4>CHECK YOUR LOTTERY</h4>
-            <input name="order1march" class="check" type="text" placeholder="input" required>
+            <input name="check1april" class="check" type="text" placeholder="input" required>
+            <button type="entercheck" class="buttoncheck">CHECK</button>
         </form>
         <br>
-        <button type="entercheck" class="buttoncheck">CHECK</button>
     </div>
+
+    <br>
+    <div class="show">
+        <table id="table">
+            <tr>
+                <th>1ST REWARD</th>
+                <th>2ND REWARD</th>
+                <th>LAST 2 NUMBER REWARD</th>
+            </tr>
+
+            <% be1april.forEach(function(item) { %>
+            <tr>
+                <td><%= item.order1 %></td>
+                <td><%= item.order2 %></td>
+                <td><%= item.order3 %></td>
+            </tr>
+            <% }) %>
+        </table>
+    </div>
+
 </body>
 </html>

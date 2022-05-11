@@ -6,7 +6,7 @@ h1{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /* ใช้ font impact เป็นหลัก */
     font-size: 100px; /* ขนาด font 100 pixel */
     height: 100px; /* ส่วนสูงของ h1 = 100 pixel */
-    color: rgb(155, 155, 155);
+    color: yellow;
     
 }
 
@@ -36,7 +36,7 @@ h3:hover{
     font-size: 40px;
     margin-left: 87%;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: rgb(163, 162, 162);
+    color: yellow;
 }
 
 h5{
@@ -97,8 +97,9 @@ table{
 }
 
 .top-container{
-    background-color: rgb(70, 68, 68); /* กำหนดพื้นหลังเป็นสีฟ้า */
+    background-color: black;
     border-style: solid;
+    color: yellow;
 }
 .table-menu{
     background-color: rgb(91, 178, 250); /* กำหนดพื้นหลังเป็นสีฟ้า */
